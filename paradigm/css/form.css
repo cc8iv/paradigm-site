@@ -1,0 +1,95 @@
+/* =============== REGISTER FORM ================ */
+/* to home section */
+.to-home-container{
+    display: flex;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    animation: none;
+}
+
+.to-home-container a:hover {
+    color: rgb(206, 0, 0);
+}
+/* to home section end */
+
+.register.container{
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid rgb(180, 180, 180); */
+    /* border-radius: 20px; */
+    background: linear-gradient(40deg, rgb(255, 221, 238), rgb(242, 212, 255), rgb(255, 209, 253), rgb(242, 199, 255));
+}
+
+.register>div{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.register .side h3{
+    font-size: 3rem;
+    font-weight: 200;
+}
+.register .register-form{
+    background-color: #fff;
+    height: 100%;
+    padding: 50px;
+}
+
+.register-form form{
+    /* width: 70%; */
+    /* min-width: 500px; */
+    background-color: #472643;
+    color: #fff;
+    padding: 50px;
+    border-radius: 4px;
+}
+
+.register-form fieldset{
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.register-form fieldset:not(.register-form form>fieldset){
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.register-form input, .register-form select, .register-form .each-course{
+    width: 100%;
+    height: 40px;
+    background-color: #ffffff4b;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.register-form select{
+    color: #272727;
+}
+
+.register-form button#reg-submit{
+    float: right;
+    background-color: #fff;
+    color: #472643;
+}
+
+legend.head{
+    font-size: 2.5rem;
+    font-weight: 200;
+}
+
+.register-form .field{
+    /* display: flex; */
+    width: 100%;
+}
+/* =============== REGISTER FORM ================ */

@@ -1,0 +1,128 @@
+/* =========================== TABLET SCREEN ======================= */
+@media screen and (max-width: 965px) {
+
+    .container,
+    .container>div {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    /* ============ HOME PAGE ========= */
+    /* nav section */
+    /* hamburger  */
+    .hamburger{
+        display: flex;
+    }
+    /* hamburger end */
+    nav #menu-list {
+        display: none;
+    }
+
+    /* nav section end */
+
+    /* hero section */
+    .hero.container {
+        padding-top: 0;
+        height: 100vh;
+        flex-direction: column-reverse;
+    }
+
+    .hero .hero-image-section {
+        width: 70%;
+        height: 100%;
+    }
+
+    .hero .hero-text-section .heading {
+        align-items: center;
+    }
+
+    /* hero section end */
+
+
+    /* about section */
+    .about .about-text-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    /* about section end */
+
+    /* review section */
+    .review-item::after {
+        font-size: 20rem;
+        /* transform: rotate(180deg) translate(-35%, -30%); */
+        transform: rotate(0deg) translate(20%, 70%);
+
+    }
+
+    /* review section end */
+
+    /* contact section */
+    .contacts-details-form {
+        height: auto;
+    }
+
+    .contact-details {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        text-align: center;
+        width: 100%;
+        /* flex-direction: column; */
+        /* max-width: 100%; */
+        justify-content: center;
+        /* display: flex; */
+        /* flex-wrap: wrap; */
+    }
+
+    .contact-details>div {
+        display: flex;
+        /* width: 40%;
+        max-width: 40%;
+        flex-basis: 0 0 100%; */
+        /* word-wrap: break-word; */
+        /* padding: 10px; */
+    }
+
+    /* contact section end */
+
+    /* ============ HOME PAGE ========= */
+
+    /* ============ ABOUT PAGE ========= */
+    .mvg.container>div{
+        width: 50%;
+    }
+    /* ============ ABOUT PAGE ========= */
+
+
+    /* ============ COURSES PAGE ========= */
+    .dept-heading{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* text-align: center; */
+    }
+
+    .dept-heading-image {
+        width: 100%;
+    }
+
+    .courses-cont{
+        grid-template-columns: 1fr;
+
+    }
+    /* ============ COURSES PAGE END ========= */
+
+
+    /* ============= CONTACT PAGE ========== */
+    /* map section */
+    .map .header{
+        flex-direction: row;
+    }
+    /* map section end */
+    /* ============= CONTACT PAGE END ========== */
+
+
+}
